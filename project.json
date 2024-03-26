@@ -1,0 +1,115 @@
+{
+  "name": "TestAutomationProject2",
+  "projectId": "9b57b63e-ca09-455e-913d-6e62d0deb26c",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.22.3]",
+    "UiPath.GSuite.Activities": "[2.5.7]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.5.7]",
+    "UiPath.System.Activities": "[24.2.0-preview]",
+    "UiPath.Testing.Activities": "[24.2.0-preview]",
+    "UiPath.UIAutomation.Activities": "[24.2.0-preview]",
+    "UiPath.WebAPI.Activities": "[1.18.0]"
+  },
+  "webServices": [
+    {
+      "namespace": "Uibank_API",
+      "serviceDocument": "Services\\Uibank_API.json",
+      "webDocumentUri": "https://uibank-api.uipath.com/explorer/swagger.json",
+      "uniqueReference": "eGGuysweMtgPw6n6quxgkdMHTZGBfWS3CBT2KAbqW+8="
+    }
+  ],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.2.1.0",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "48599fed-6888-455e-8c04-24ed79b270d4",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b130e2c7-ea9e-44d7-8d4f-5b607717e640",
+        "testCaseType": "TestCase",
+        "fileName": "Select_Checkbox.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4fa82b68-0b64-4d57-a2cd-8d62a88e067e",
+        "dataVariationFilePath": ".variations\\Api_Data_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_01_API.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a6d865d8-2db1-4c02-acd8-d8aea954d0c0",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_02_API.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3d9ebcfe-ee9a-4c62-9d1d-099abcfb22b4",
+        "testCaseType": "TestCase",
+        "fileName": "TC_04_API.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d12a4410-3d02-42da-bac5-249185641526",
+        "testCaseType": "TestCase",
+        "fileName": "TC_03_API.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ae374217-ddf5-4457-8805-b61222011d7e",
+        "testCaseType": "TestCase",
+        "fileName": "ReadData_Excel.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "074c1e4e-003a-4a28-872e-738aaa2d5a0b",
+        "testCaseType": "TestCase",
+        "fileName": "WriteData_Excel.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
